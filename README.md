@@ -11,4 +11,4 @@
 
 Пример реализации:
 
-![](C:\Users\solda\Desktop\GB\JAVA\JavaSeminarOOP7\src\main\java\example.png)
+![](example.png)

@@ -6,7 +6,7 @@ public class CalculatorInput implements Calculator {
 
     @Override
     public String logg() {
-        return "Transaction logging:\n";
+        return "";
     }
 
     @Override

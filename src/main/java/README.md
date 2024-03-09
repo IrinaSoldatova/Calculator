@@ -9,4 +9,6 @@
 4. Деление
 5. Выход из программы
 
-![Пример реализации] (example.png)
+Пример реализации:
+
+![](C:\Users\solda\Desktop\GB\JAVA\JavaSeminarOOP7\src\main\java\example.png)

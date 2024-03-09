@@ -23,8 +23,13 @@ public class DivideDecorator extends CalculatorDecorator {
     @Override
     public String logg() {
         if (secondNumber == 0) {
-            return calculator.logg() + firstNumber + " / " + secondNumber + " = " + "Division by 0 is not possible" + "\n";
+            String message = firstNumber + " / " + secondNumber + " = " + "Division by 0 is not possible" + "\n";
+            Logger.log(message);
+            return message;
+        } else {
+            String message = firstNumber + " / " + secondNumber + " = " + output();
+            Logger.log(message);
+            return message;
         }
-        return calculator.logg() + firstNumber + " / " + secondNumber + " = " + output() + "\n";
     }
 }

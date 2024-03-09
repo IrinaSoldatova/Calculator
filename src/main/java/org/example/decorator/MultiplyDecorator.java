@@ -23,6 +23,8 @@ public class MultiplyDecorator extends CalculatorDecorator {
 
     @Override
     public String logg() {
-        return calculator.logg() + firstNumber + " * " + secondNumber + " = " + output() + "\n";
+        String message = firstNumber + " * " + secondNumber + " = " + output();
+        Logger.log(message);
+        return message;
     }
 }
